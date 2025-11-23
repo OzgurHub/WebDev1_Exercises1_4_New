@@ -1,0 +1,88 @@
+/* Global page styles */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cfcfcf; /* Grey outer background */
+}
+
+/* Background padding around the white card */
+.page-background {
+  padding: 40px 0;
+}
+
+/* Main white rounded card */
+.story-card {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 40px 60px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+/* Main title + subtitle */
+.story-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Big green “Our Story” */
+.story-header h1 {
+  margin: 0;
+  font-size: 64px;
+  line-height: 1;
+  color: #32a000; /* bright green */
+  font-weight: 900;
+}
+
+/* Green subtitle “Hit the Ground Running” */
+.story-header h2 {
+  margin: 20px 0 10px;
+  font-size: 40px;
+  color: #32a000;
+  font-weight: 900;
+}
+
+/* Generic section spacing */
+.story-section {
+  margin-bottom: 30px;
+}
+
+/* Section heading style (“How Does it Work?”, “To the Future”) */
+.story-section > h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #32a000;
+  font-weight: 900;
+  margin: 30px 0 10px;
+}
+
+/* Paragraph text */
+.story-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+}
+
+/* “Did you know?” green box */
+.did-you-know {
+  background-color: #32a000;
+  border-radius: 20px;
+  padding: 25px 30px;
+}
+
+/* “Did you know?” heading */
+.did-you-know h3 {
+  margin: 0 0 10px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+/* “Did you know?” text */
+.did-you-know p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+}

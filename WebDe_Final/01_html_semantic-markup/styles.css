@@ -1,0 +1,64 @@
+
+
+/* the whole page text style and no space around page */
+body {
+  font-family: "Times New Roman", serif; 
+  margin: 0;
+  padding: 0;
+}
+
+
+/* grey boxes at the top, middle, and bottom */
+.bar {
+  background-color: #d3d3d3; 
+  padding: 15px 0;
+}
+
+
+/* small space on left and right for all content */
+.content {
+  padding: 0 20px
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
+/* link style in the top menu */
+nav a {
+  color: blue;
+  text-decoration: underline;
+  margin-right: 5px;
+}
+
+
+/* white main area for the recipe */
+main {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* remove extra space above all titles */
+h2, h3 {
+  color: black;
+  margin-top: 0;
+}
+
+/* move lists a little to the right */
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+ol {
+  padding-left: 40px;
+}
+
+/* remove extra space in the footer text */
+footer p {
+  margin: 0;
+}
